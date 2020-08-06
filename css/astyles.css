@@ -1,0 +1,155 @@
+
+.advisory {
+  text-align: center;
+  color: #fff;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat";
+  line-height: 2;
+}
+
+h3 {
+  font-family: "Montserrat-bold 700";
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+h4 {
+  text-align: left;
+  font-family: "Montserrat-italic";
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* border */
+hr {
+  border: solid #00000;
+  border-bottom: none;
+  width: 85%;
+  margin: 100px auto;
+}
+
+/* founder */
+#founder {
+  background-image: linear-gradient(#00bcd4, #3ca59d);
+  padding: 3% 0%;
+}
+
+.about {
+  text-align: left;
+  color: #fff;
+  font-family: "Montserrat-thin"
+    padding: 4%;
+}
+
+.contact {
+  padding-left: 17%;
+}
+
+.icons {
+  padding: 10%;
+  width: 30%;
+  margin-left: 55%;
+}
+
+.founder-img {
+  width: 95%;
+  align: left;
+}
+
+/* advisory board */
+.advisory-board-title {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  width: 100%;
+}
+
+
+.advisory-board {
+  background-image: linear-gradient(#3ca59d, #14b1ab);
+  padding: 3% 7%;
+  position: relative;
+
+
+}
+
+.cloud-img {
+  width: 50px;
+}
+
+.advisor1 {
+
+
+  background-image: linear-gradient(to right bottom,rgba(92, 100, 91, 0.8),rgba(43, 68, 59, 0.8)), url(https://img.techpowerup.org/200806/advisor-1.jpg);
+background-repeat: no-repeat;
+
+background-size: cover;
+    background-position: center;
+  z-index: +100;
+ 
+
+}
+
+.advisor2 {
+  width: 20%;
+}
+
+.advisor-2-img {
+  width: 100%;
+  height: auto;
+}
+
+.advisor3 {
+  background-color: #000000;
+}
+
+.details {
+  color: #fff;
+}
+.advisor1 h4{
+  color:#005086;
+  line-height: 2;
+}
+
+/* Product manager */
+#product-manager {
+  text-align: center;
+  padding: 5%;
+  color: #000000;
+  background-color: #ddf3f5;
+}
+
+.star {
+  width: 1.5%;
+  padding: 3% 0%;
+}
+
+.testimonial-img {
+  padding: 1% 2%;
+}
+
+
+@media(max-width:1080px) {
+  #founder {
+    text-align: center;
+    padding: 2%;
+  }
+  .advisory-board{
+    text-align: center;
+  }
+
+  #product-manager {
+    text-align: center;
+  }
+
+  .icons {
+    display: inline;
+  }
+
+  .cloud-img {
+    width: 30px;
+    margin-left: 0;
+  }
+}
